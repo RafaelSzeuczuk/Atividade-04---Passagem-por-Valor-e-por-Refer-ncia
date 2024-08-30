@@ -1,0 +1,31 @@
+Nome: Rafael Szeuczuk André Turma:B
+
+A)
+1) 	Na linha 2 sera impresso "Valores originais de x, y e z:" e as COPIAS das variáveis que foram para a função, neste caso,as variáveis a = 1, b = 2, c = 3;
+	Na linha 6 sera impresso "Valores finais de x, y e z dentro da função:" que são as copias depois de ser executado os códigos, neste caso 101, 102 e 103;
+	Na linha 12 sera impresso "Valores finais em main de a, b e c:" e apenas os valores iniciais a = 1, b = 2, c = 3, pois não foi alterado.
+
+2) 	Na linha 2 sera impresso "Valores originais na função:" e os conteúdos das variáveis que foram para a função, neste caso,as variáveis a = 1, b = 2, c = 3;
+	Na linha 6 sera impresso "Valores finais de x, y e z dentro da função:" que são os conteúdos das variáveis depois de ser executado os códigos, neste caso 101, 102 e 103;
+	Na linha 12 sera impresso "Valores finais em main de a, b e c:" porem, sera impresso os valores alterados na função pois foi alterado os ponteiros associados a elas, logo, 101, 102 e 103.
+
+3) 	Na linha 7 sera impresso 0 e 5;
+	Já na linha 9 sera impresso 5 e 5, pois à uma função com passagem, por referenciá e valor alterando somente o valor de a;
+
+4) 	Na linha 11 sera impresso as variáveis declaradas inicialmente, x = 2, y = 4, z = 6.
+	Na linha 13, continuara c a ser exibido as variáveis em alteração, logo que a função que foi chamada anteriormente é uma função com passagem por valor;
+	Na linha 14, não haverá modificações nos valores;
+	Na linha 16 os valores de x, y e z serão impressos como 0, logo que, os endereços dessas variáveis foi mandada para uma função com passagem por paramêtro, afetando tambêm as variáveis no "main".
+
+5) 	Na linha 3, sera exibido a variável i declarada no main incrementada com o valor 10, logo 11;
+	Na linha 9, também sera igual a linha 3;
+
+6) 	Na linha 4, sera impresso o ponteiro apontando a variável x, do "main", multiplicado por 2, logo 8;
+	Na linha 5, sera exibido a copia da variável y, do "main", somado com 5, logo 7;
+	Na linha 11, sera exibido o valor de x, neste caso 8, pois à um ponteiro modificando ela na função;
+	Na linha 12 sera impresso o valor inicial de y, pois ela não foi alterada nem ela, e não exite um ponteiro apontando a ela, logo é 2;
+
+7) a)	Se os valores de a=1, b=2; na linha 12 os valores resultantes serão: a=1, b=2 e s=3;
+
+B)
+	Não, pois somente é possível ler o conteúdo da variável, e não do ponteiro;
